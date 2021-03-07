@@ -1,1 +1,50 @@
 ## _Mariya Ivanova_
+
+### _Personal Information_
+
+Phone number: _+7 (917) 312-93-31_
+Email: _marie555iv@gmail.com_
+
+### _Summary_
+
+### _Professional Skills_
+
+- HTML/CSS
+- JavaScript
+- Git
+
+### _Code Examples_
+
+```js
+//The function that takes a string of words and returns the length of the shortest word(s).
+function findShort(s) {
+  let arr = s.split(" ").map((item) => item.length);
+  return Math.min(...arr);
+}
+```
+
+```js
+//The method that takes a sequence of objects with two keys each (country or state, and capital) and returns an array of sentences declaring the state or country and its capital.
+function capital(capitals) {
+  let result = capitals.map((item) => {
+    let newMap = new Map(Object.entries(item));
+    return `The capital of ${
+      newMap.get("country") || newMap.get("state")
+    } is ${newMap.get("capital")}`;
+  });
+  return result;
+}
+```
+
+### _Experience_
+
+### _Education_
+
+Specialist Degree:
+_Saratov State Technical University (SSTU), department of Light industry product design, Technical Garments Design(2004-2009)_
+
+### _Languages_
+
+Russian - Native
+English - A2
+German - A1
