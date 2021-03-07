@@ -2,8 +2,8 @@
 
 ### _Personal Information_
 
-~ Phone number: _+7 (917) 312-93-31_
-~ Email: _marie555iv@gmail.com_
+Phone number: _+7 (917) 312-93-31_  
+Email: _marie555iv@gmail.com_
 
 ### _Summary_
 
@@ -44,11 +44,11 @@ function capital(capitals) {
 
 ### _Education_
 
-Specialist Degree:
-~ _Saratov State Technical University (SSTU), department of Light industry product design, Technical Garments Design(2004-2009)_
+Specialist Degree:  
+_Saratov State Technical University (SSTU), department of Light industry product design, Technical Garments Design(2004-2009)_
 
 ### _Languages_
 
-~ Russian - Native
-~ English - A2
-~ German - A1
+Russian - Native  
+English - A2  
+German - A1
