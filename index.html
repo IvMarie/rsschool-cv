@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="container header">
+        <div class="header-ava">
+          <img src="img/avatar.png" alt="avatar" />
+        </div>
+        <div class="header-personal">
+          <h1>Mariya Ivanova</h1>
+          <h2>Junior Front-End Developer</h2>
+          <section class="header-contacts">
+            <h3>Contacts</h3>
+            <address>
+              <ul>
+                <li>Phone number: +7 (917) 312-93-31</li>
+                <li>Email: marie555iv@gmail.com</li>
+              </ul>
+            </address>
+          </section>
+        </div>
+      </header>
+      <main class="container">
+        <article class="summary">
+          <h3>Summary</h3>
+          <p>
+            My goal is to obtain a position as a Front-end Developer. I have no
+            experience in this area, before that I worked for a long time in the
+            production and sale of garments. I was interested in web development
+            and decided to change my specialization. At the moment I am engaged
+            in self-education and taking online courses on the front-end. I am
+            self-motivated, diverse, diligent person.
+          </p>
+          <section class="summary-skills">
+            <h3>Professional Skills</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+            </ul>
+          </section>
+          <section class="summary-code">
+            <h3>Code Examples</h3>
+            <div>
+              <pre><code>
+function findShort(s) {
+  let arr = s.split(" ").map((item) => item.length);
+  return Math.min(...arr);
+}
+
+function capital(capitals) {
+  let result = capitals.map((item) => {
+    let newMap = new Map(Object.entries(item));
+    return `The capital of ${
+      newMap.get("country") || newMap.get("state")
+    } is ${newMap.get("capital")}`;
+  });
+  return result;
+}
+              </code></pre>
+            </div>
+          </section>
+          <section class="summary-experience">
+            <h3>Experience</h3>
+            <p>
+              I have no work experience as a Front-End Developer. <br />
+              I’m on a JavaScript/Front-end Course from RS School at the moment.
+            </p>
+          </section>
+          <section class="summary-education">
+            <h3>Education</h3>
+            <p>
+              Specialist Degree:<br />
+              Saratov State Technical University (SSTU), department of Light
+              industry product design, Technical Garments Design(2004-2009)
+            </p>
+          </section>
+          <section class="summary-lang">
+            <h3>Languages</h3>
+            <ul>
+              <li>Russian - native</li>
+              <li>English - A2</li>
+              <li>German - A1</li>
+            </ul>
+          </section>
+        </article>
+      </main>
+      <footer class="container footer">
+        <a href="https://github.com/IvMarie">
+          <img src="img/GitHub-logo.png" alt="GitHub Logo" title="My Github" />
+        </a>
+        <time>2021</time>
+        <a href="https://rs.school/js/" class="footer-rs">
+          <img
+            src="img/rsschool_logo.svg"
+            alt="RS School Logo"
+            title="JavaScript/Front-end Course"
+          />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
