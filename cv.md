@@ -1,4 +1,4 @@
-![Mariya Ivanova](img/photo.jpg)
+![Mariya Ivanova](img/avatar.png)
 
 ## _Mariya Ivanova_
 
